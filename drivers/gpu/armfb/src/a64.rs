@@ -109,5 +109,5 @@ pub fn a64_fb_init() {
     let mut fb = A64Fb::new();
 
     fb.init();
-    fb.clear_screen(FbColor::new(0x000000, 0, 0));
+    fb.clear_screen(FbColor::new(0xFFFFFF, 0, 0));
 }
